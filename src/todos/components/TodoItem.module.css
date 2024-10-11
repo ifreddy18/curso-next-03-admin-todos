@@ -1,0 +1,7 @@
+.todoDone {
+	@apply flex flex-col items-center justify-between gap-2 rounded-lg border border-dashed border-blue-500 bg-blue-50 p-5 line-through shadow-sm sm:flex-row sm:gap-0;
+}
+
+.todoPending {
+	@apply flex flex-col items-center justify-between gap-2 rounded-lg border border-dashed border-red-500 bg-red-50 p-5 shadow-sm sm:flex-row sm:gap-0;
+}
